@@ -14,15 +14,15 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId="410811568267-i3r53unc4ltnsta2mtaem6tc9v9segd7.apps.googleusercontent.com">
+    {/* <GoogleOAuthProvider clientId="410811568267-i3r53unc4ltnsta2mtaem6tc9v9segd7.apps.googleusercontent.com">
       <UserDetailsProvider>
         <TaskDetailsProvider>
-          <ThemeProvider>
-            <App />
-          </ThemeProvider>
+          <ThemeProvider> */}
+    <App />
+    {/* </ThemeProvider>
         </TaskDetailsProvider>
       </UserDetailsProvider>
-    </GoogleOAuthProvider>
+    </GoogleOAuthProvider> */}
   </React.StrictMode>
 );
 
